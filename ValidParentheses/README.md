@@ -1,0 +1,5 @@
+[LeetCode 20: Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+
+# Thought Process
+
+I struggled pretty hard with this question, I could not resolve the final portion with needing a final return statement of `return !stack.length;`.  Essentially needed to create an empty stack/array and push the opening brackets into it with a for of loop.  Then needed to check if the closing brackets matched the opening brackets, if they did, pop the last element off the stack.  If they did not match, return false.  Finally, return if the stack is empty or not. If it is empty, return true, if not, return false.  This is because if the stack is empty, all the brackets have been matched and popped off the stack, if not, there are still brackets that have not been matched and popped off the stack.
