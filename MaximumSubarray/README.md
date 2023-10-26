@@ -1,6 +1,6 @@
-[LeetCode 53: Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
+# [LeetCode 53: Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 
-# Thought Process
+## Thought Process
 
 Had no idea on how to approach this problem upon reading the description.
 
