@@ -182,7 +182,8 @@ function isAlphaNumeric(char){
 
 ## Recap and Interview Strategies
 
-- Understand the problem: ask questions, clarify the problem, and make sure you understand your inputs and desired outputs. Think of invalid inputs and edge cases.
-- Explore concrete examples: come up with examples that can help you understand the problem better. Examples also provide sanity checks that your eventual solution works how it should.
-- Break it down: explicitly write out the steps you need to take. This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.
-
+- **Understand the problem**: ask questions, clarify the problem, and make sure you understand your inputs and desired outputs. Think of invalid inputs and edge cases.
+- **Explore concrete examples**: come up with examples that can help you understand the problem better. Examples also provide sanity checks that your eventual solution works how it should.
+- **Break it down**: explicitly write out the steps you need to take. This forces you to think about the code you'll write before you write it, and helps you catch any lingering conceptual issues or misunderstandings before you dive in and have to worry about details (e.g. language syntax) as well.
+- **Solve or simplify**: solve the problem if you can. If you can't, solve a simpler problem. Ignore the stuck portions and solve the rest. Then incorporate the difficulty back in.
+- **Look back and refactor**: refactor your solution if you can. Look for ways to improve your code. Think about how other people have solved this problem.
