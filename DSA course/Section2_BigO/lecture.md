@@ -116,3 +116,12 @@ console.log(`Time Elapsed: ${(t2 - t1) / 1000} seconds.`);
 - O(log n) is great! It is even better than O(n) because it grows slower.
 - O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2^n) < O(n!)
 
+## Recap
+
+- To analyze the performance of an algorithm, we use Big O Notation.
+- Big O Notation can give us a high level understanding of the time or space complexity of an algorithm.
+- Big O Notation does not care about precision, only about general trends (linear? quadratic? constant?)
+- The time or space complexity (as measured by Big O) depends only on the algorithm, not the hardware used to run the algorithm.
+- Big O Notation is everywhere, so get lots of practice!
+
+
