@@ -15,7 +15,10 @@ class Solution:
                 
 
 ## IMPROVED
-## one pass hash table, set up a dictionary and a variable to hold the length of nums, iterate over range of variable and generate the complement variable using the target - nums[i] position, if that complement is in the dictionary(numMap) we want to return the indices so we dig into the hash map with numMap[complement] and use i as the index pair, line 23 is mapping from each number in nums list to its index in the list and being stored in numMap which is used to look up the index of a numbers complement when searching for pairs to hit target value
+# One pass hash table, set up a dictionary and a variable to hold the length of nums, iterate over range of variable and generate the complement 
+# variable using the target - nums[i] position, if that complement is in the dictionary(numMap) we want to return the indices so we dig into the 
+# hash map with numMap[complement] and use i as the index pair, line 23 is mapping from each number in nums list to its index in the list and being 
+# stored in numMap which is used to look up the index of a numbers complement when searching for pairs to hit target value
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
