@@ -2,11 +2,14 @@
 ## This should have a time of O(n) and n being the length of the array
 
 class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        duplicate = set()
-        for number in nums:
-            if number in duplicate:
+    def hasDuplicate(self, nums: List[int]) -> bool:
+         # create a set, as we iterate we add each element, since set only takes unique
+         # if an element tries to be added but exists already we retrun true if we
+         # make it to the end of the array we return false
+        seen = set()
+        for num in nums:
+            if num in seen:
                 return True
-            duplicate.add(number)
+            seen.add(num)
         return False
 
